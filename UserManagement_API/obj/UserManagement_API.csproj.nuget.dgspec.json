@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\patir\\Desktop\\Projeler\\Patika\\BankAPIs\\UserManagement_API\\UserManagement_API.csproj": {}
+    "c:\\Users\\patir\\Documents\\GitHub\\UserManagementAPI_Week3\\UserManagement_API\\UserManagement_API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\patir\\Desktop\\Projeler\\Patika\\BankAPIs\\UserManagement_API\\UserManagement_API.csproj": {
+    "c:\\Users\\patir\\Documents\\GitHub\\UserManagementAPI_Week3\\UserManagement_API\\UserManagement_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\patir\\Desktop\\Projeler\\Patika\\BankAPIs\\UserManagement_API\\UserManagement_API.csproj",
+        "projectUniqueName": "c:\\Users\\patir\\Documents\\GitHub\\UserManagementAPI_Week3\\UserManagement_API\\UserManagement_API.csproj",
         "projectName": "UserManagement_API",
-        "projectPath": "c:\\Users\\patir\\Desktop\\Projeler\\Patika\\BankAPIs\\UserManagement_API\\UserManagement_API.csproj",
+        "projectPath": "c:\\Users\\patir\\Documents\\GitHub\\UserManagementAPI_Week3\\UserManagement_API\\UserManagement_API.csproj",
         "packagesPath": "C:\\Users\\patir\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\patir\\Desktop\\Projeler\\Patika\\BankAPIs\\UserManagement_API\\obj\\",
+        "outputPath": "c:\\Users\\patir\\Documents\\GitHub\\UserManagementAPI_Week3\\UserManagement_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\patir\\AppData\\Roaming\\NuGet\\NuGet.Config"

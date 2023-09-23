@@ -43,6 +43,24 @@ namespace UserManagement_API.Controllers
             return Ok(MovieList); 
         }
 
+        // GET: api/Movies/{id}
+        [HttpGet("{id}")]
+        public IActionResult GetUsers(int id) { 
+            GetUserByIdQuery query = new GetUserByIdQuery(_context, _mapper, id);
+            GetUserByIdValidator validator = new GetUserByIdValidator();
+            UserViewModel User;
+            try
+            {
+                validator.ValidateAndThrow(query); // Data check
+                User = query.Handle();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            return Ok(User); 
+        }
+
         // POST: api/Movies
         [HttpPost]
         public IActionResult CreateUser([FromBody] UserDTO model) { 
