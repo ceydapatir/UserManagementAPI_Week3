@@ -27,23 +27,23 @@ namespace UserManagement_API.Controllers
             _mapper = mapper;
         }
 
-        // GET: api/Movies
+        // GET: api/Users
         [HttpGet]
         public IActionResult GetUsers() { 
             GetUsersQuery query = new GetUsersQuery(_context, _mapper);
-            List<UserViewModel> MovieList;
+            List<UserViewModel> UserList;
             try
             {
-                MovieList = query.Handle();
+                UserList = query.Handle();
             }
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
-            return Ok(MovieList); 
+            return Ok(UserList); 
         }
 
-        // GET: api/Movies/{id}
+        // GET: api/Users/{id}
         [HttpGet("{id}")]
         public IActionResult GetUsers(int id) { 
             GetUserByIdQuery query = new GetUserByIdQuery(_context, _mapper, id);
@@ -61,7 +61,7 @@ namespace UserManagement_API.Controllers
             return Ok(User); 
         }
 
-        // POST: api/Movies
+        // POST: api/Users
         [HttpPost]
         public IActionResult CreateUser([FromBody] UserDTO model) { 
             CreateUserCommand command = new CreateUserCommand(_context, _mapper, model);
@@ -78,7 +78,7 @@ namespace UserManagement_API.Controllers
             return Ok(); 
         }
 
-        // PUT: api/Movies/{id}
+        // PUT: api/Users/{id}
         [HttpPut("{id}")]
         public IActionResult UpdateUser(int id, [FromBody] UserDTO model) { 
             UpdateUserCommand command = new UpdateUserCommand(_context, _mapper, model, id);
@@ -95,7 +95,7 @@ namespace UserManagement_API.Controllers
             return Ok(); 
         }
 
-        // DELETE: api/Movies/{id}
+        // DELETE: api/Users/{id}
         [HttpDelete("{id}")]
         public IActionResult DeleteUser(int id) { 
             DeleteUserCommand command = new DeleteUserCommand(_context, id);

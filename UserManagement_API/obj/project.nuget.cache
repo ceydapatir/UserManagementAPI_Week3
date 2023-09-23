@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J3fdb7hSF16EV95TBve13Jnv9LKpzMS20wvQAucNlza2/MgnuCwMuaYyuDYZgfg+XHbkZeCo5O7dT16ZInlv0g==",
+  "dgSpecHash": "Glatuaz7tFloGUNCUA2vqJAH4Vdx9EJKkkUltzN/c6TjjIJ4l77dkLMfuHMYTkYhqGPN7mLBraQt7n1TNV2z2g==",
   "success": true,
-  "projectFilePath": "c:\\Users\\patir\\Documents\\GitHub\\UserManagementAPI_Week3\\UserManagement_API\\UserManagement_API.csproj",
+  "projectFilePath": "C:\\Users\\patir\\Documents\\GitHub\\UserManagementAPI_Week3\\UserManagement_API\\UserManagement_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\patir\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\patir\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
