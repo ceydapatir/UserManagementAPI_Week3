@@ -12,9 +12,10 @@ dotnet run
 
 ## Requests
 * GET   /api/Users: This request throws an error if there is no user in the database, otherwise it returns user data.
+* GET   /api/Users/{id}: This request returns the user data with the received id in the database, and if there is no such user, it throws an error.
 * POST  /api/Users: This request creates a new user if there is no user with the same citizen id in the database, otherwise it throws an error.
-* PUT   /api/Users/{id}: This request updates the user information with the received id in the database, and if there is no such user, it throws an error.
-* DELETE   /api/Users/{id}: This request deletes the user information with the received id in the database, and if there is no such user, it throws an error.
+* PUT   /api/Users/{id}: This request updates the user data with the received id in the database, and if there is no such user, it throws an error.
+* DELETE   /api/Users/{id}: This request deletes the user data with the received id in the database, and if there is no such user, it throws an error.
 
 
 ## Mapping
