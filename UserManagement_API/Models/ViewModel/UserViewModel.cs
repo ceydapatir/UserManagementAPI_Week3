@@ -7,6 +7,7 @@ namespace UserManagement_API.Models.ViewModel
 {
     public class UserViewModel
     {
+        public int UserId { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
         public string CitizenNum { get; set; }
@@ -14,6 +15,5 @@ namespace UserManagement_API.Models.ViewModel
         public string Mail { get; set; }
         public int Phone { get; set; }
         public string Status { get; set; }
-        public string LastActivityDate { get; set; }
     }
 }

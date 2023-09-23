@@ -12,11 +12,11 @@ namespace UserManagement_API.Common
     public class MapperProfile : Profile
     {
         public MapperProfile(){
-            CreateMap<User, UserViewModel>()
+            CreateMap<User, UserViewModel>()            // Map fot GET request
                 .ForMember(i => i.Status, opt => opt.MapFrom(src => ((UserStatusEnum)src.StatusID).ToString()))
                 .ForMember(i => i.BirthDate, opt => opt.MapFrom(src => src.BirthDate.Date.ToString("dd/MM/yyy")));
-            CreateMap<UserDTO, User>();
-            CreateMap<UserDTO, User>().ReverseMap();
+            CreateMap<UserDTO, User>();                 // Map fot POST request
+            CreateMap<UserDTO, User>().ReverseMap();    // Map fot PUT request
         }
     }
 }

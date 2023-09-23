@@ -23,7 +23,7 @@ namespace UserManagement_API.Operations.GetUsers
             var UserList = _context.Users.OrderBy(i => i.UserId).ToList<User>();
             List<UserViewModel> ViewModelList = new List<UserViewModel>();
             UserViewModel ViewModel;
-            if(UserList is null)
+            if(UserList.Count() == 0)
                 throw new InvalidOperationException("There are no customers.");
             else
                 foreach (var user in UserList)

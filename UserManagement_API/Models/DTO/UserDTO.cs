@@ -14,7 +14,6 @@ namespace UserManagement_API.Models.DTO
         public DateTime BirthDate { get; set; }
         public string Mail { get; set; }
         public int Phone { get; set; }
-        // public virtual List<AddressDTO> Addresses { get; set; }
-        // public virtual Password Password { get; set; }
+        public int StatusId { get; set; }
     }
 }

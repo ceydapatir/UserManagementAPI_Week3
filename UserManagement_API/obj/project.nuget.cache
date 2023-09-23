@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e0uG5Gl1vH3rwGt5bzTfWTyCq7bqTGxBx4qBNmaYVGar5l52tuYav9o3B/dMxdmj24Zbft82fBxo4zUJOK61AA==",
+  "dgSpecHash": "IyhxPCZ+iPfZijvMBm20LdamgVX0N6bbDs5oUkHs4aIi/pD3Ccm57XAFGEEpjckIpy0LN8b/Lepq2hGkuYapWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\patir\\Desktop\\Projeler\\Patika\\BankAPIs\\UserManagement_API\\UserManagement_API.csproj",
+  "projectFilePath": "c:\\Users\\patir\\Desktop\\Projeler\\Patika\\BankAPIs\\UserManagement_API\\UserManagement_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\patir\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\patir\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

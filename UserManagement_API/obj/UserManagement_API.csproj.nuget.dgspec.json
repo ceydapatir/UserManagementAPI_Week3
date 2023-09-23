@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\patir\\Desktop\\Projeler\\Patika\\BankAPIs\\UserManagement_API\\UserManagement_API.csproj": {}
+    "c:\\Users\\patir\\Desktop\\Projeler\\Patika\\BankAPIs\\UserManagement_API\\UserManagement_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\patir\\Desktop\\Projeler\\Patika\\BankAPIs\\UserManagement_API\\UserManagement_API.csproj": {
+    "c:\\Users\\patir\\Desktop\\Projeler\\Patika\\BankAPIs\\UserManagement_API\\UserManagement_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\patir\\Desktop\\Projeler\\Patika\\BankAPIs\\UserManagement_API\\UserManagement_API.csproj",
+        "projectUniqueName": "c:\\Users\\patir\\Desktop\\Projeler\\Patika\\BankAPIs\\UserManagement_API\\UserManagement_API.csproj",
         "projectName": "UserManagement_API",
-        "projectPath": "C:\\Users\\patir\\Desktop\\Projeler\\Patika\\BankAPIs\\UserManagement_API\\UserManagement_API.csproj",
+        "projectPath": "c:\\Users\\patir\\Desktop\\Projeler\\Patika\\BankAPIs\\UserManagement_API\\UserManagement_API.csproj",
         "packagesPath": "C:\\Users\\patir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\patir\\Desktop\\Projeler\\Patika\\BankAPIs\\UserManagement_API\\obj\\",
+        "outputPath": "c:\\Users\\patir\\Desktop\\Projeler\\Patika\\BankAPIs\\UserManagement_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\patir\\AppData\\Roaming\\NuGet\\NuGet.Config"
